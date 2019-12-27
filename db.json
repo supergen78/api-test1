@@ -17,7 +17,7 @@
 		"id": 1,
 		"verified" :	true, 
 		"data" : {
-			"orderId" :	 1234567,
+			"orderId" :	 1,
 			"boxes" : [
 				{
 					"deliveryStatusCode" : "A",
@@ -29,6 +29,36 @@
 					"edd" :	 "2019-12-17",
 					"pdd" :	 "2019-12-17"
 				}
+			]
+		},
+		"failureList" :	null
+	},
+	  {
+		"id": 2,
+		"verified" :	true, 
+		"data" : {
+			"orderId" :	 2,
+			"boxes" : [
+				{
+					"deliveryStatusCode" : "B",
+					"id" : "123456",
+					"deliverCode" : "ABC",
+					"startedAt" : "2019-12-17 14:00:00",
+					"invoiceNumber": "123456",
+					"endedAt" : "2019-12-17 18:00:00",
+					"edd" :	 "2019-12-17",
+					"pdd" :	 "2019-12-17"
+				},
+				{
+					"deliveryStatusCode" : "C",
+					"id" : "123456",
+					"deliverCode" : "ABC",
+					"startedAt" : "2019-12-31 14:00:00",
+					"invoiceNumber": "123456",
+					"endedAt" : "2019-12-31 18:00:00",
+					"edd" :	 "2019-12-31",
+					"pdd" :	 "2019-12-31"
+				},
 			]
 		},
 		"failureList" :	null
