@@ -1,67 +1,92 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" },
-    { "id": 4, "title": "Post 4" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "orders": [
+	"posts": [
 		{
 			"id": 1,
-			"verified" :	true, 
-			"data" : {
-				"orderId" :	 1234567,
-				"boxes" : [
-					{
-						"deliveryStatusCode" : "A",
-						"id" : "123456",
-						"deliverCode" : "ABC",
-						"startedAt" : "2019-12-17 14:00:00",
-						"invoiceNumber": "123456",
-						"endedAt" : "2019-12-17 18:00:00",
-						"edd" :	 "2019-12-17",
-						"pdd" :	 "2019-12-17"
-					}
-				]
-			},
-			"failureList" :	null
+			"title": "Post 1"
 		},
 		{
 			"id": 2,
-			"verified" :	true, 
-			"data" : {
-				"orderId" :	 2,
-				"boxes" : [
+			"title": "Post 2"
+		},
+		{
+			"id": 3,
+			"title": "Post 3"
+		},
+		{
+			"id": 4,
+			"title": "Post 4"
+		}
+	],
+	"emergency": [
+		{
+			"id": 1,
+			"failureList": null,
+			"data": {
+				"result": 1,
+				"emergencyTTS": "기상악화로 배송이 지연되고 있습니다. 자세한 사항은 쿠팡닷컴에서 확인 부탁드립니다."
+			},
+			"verified": true
+		},
+		{
+			"id": 2,
+			"failureList": null,
+			"data": {
+				"result": 0,
+				"emergencyTTS": null
+			},
+			"verified": true
+		}
+	],
+	"orders": [
+		{
+			"id": 1,
+			"verified": true,
+			"data": {
+				"orderId": 1234567,
+				"boxes": [
 					{
-						"deliveryStatusCode" : "B",
-						"id" : "123456",
-						"deliverCode" : "ABC",
-						"startedAt" : "2019-12-17 14:00:00",
+						"deliveryStatusCode": "A",
+						"id": "123456",
+						"deliverCode": "ABC",
+						"startedAt": "2019-12-17 14:00:00",
 						"invoiceNumber": "123456",
-						"endedAt" : "2019-12-17 18:00:00",
-						"edd" :	 "2019-12-17",
-						"pdd" :	 "2019-12-17"
-					},
-					{
-						"deliveryStatusCode" : "C",
-						"id" : "123456",
-						"deliverCode" : "ABC",
-						"startedAt" : "2019-12-31 14:00:00",
-						"invoiceNumber": "123456",
-						"endedAt" : "2019-12-31 18:00:00",
-						"edd" :	 "2019-12-31",
-						"pdd" :	 "2019-12-31"
+						"endedAt": "2019-12-17 18:00:00",
+						"edd": "2019-12-17",
+						"pdd": "2019-12-17"
 					}
 				]
 			},
-			"failureList" :	null
+			"failureList": null
+		},
+		{
+			"id": 2,
+			"verified": true,
+			"data": {
+				"orderId": 2,
+				"boxes": [
+					{
+						"deliveryStatusCode": "B",
+						"id": "123456",
+						"deliverCode": "ABC",
+						"startedAt": "2019-12-17 14:00:00",
+						"invoiceNumber": "123456",
+						"endedAt": "2019-12-17 18:00:00",
+						"edd": "2019-12-17",
+						"pdd": "2019-12-17"
+					},
+					{
+						"deliveryStatusCode": "C",
+						"id": "123456",
+						"deliverCode": "ABC",
+						"startedAt": "2019-12-31 14:00:00",
+						"invoiceNumber": "123456",
+						"endedAt": "2019-12-31 18:00:00",
+						"edd": "2019-12-31",
+						"pdd": "2019-12-31"
+					}
+				]
+			},
+			"failureList": null
 		}
 	]
 }
