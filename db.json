@@ -70,12 +70,32 @@
 						"deliverCode": "ABC",
 						"startedAt": "2019-12-17 14:00:00",
 						"invoiceNumber": "123456",
-						"endedAt": "2019-12-17 18:00:00",
-						"edd": "2019-12-17",
-						"pdd": "2019-12-17"
+						"endedAt": "2020-01-30 18:00:00",
+						"edd": "2020-01-30",
+						"pdd": "2020-01-30"
 					},
 					{
 						"deliveryStatusCode": "C",
+						"id": "123456",
+						"deliverCode": "ABC",
+						"startedAt": "2019-12-31 14:00:00",
+						"invoiceNumber": "123456",
+						"endedAt": "2020-01-31 18:00:00",
+						"edd": "2020-01-31",
+						"pdd": "2020-01-31"
+					}
+				]
+			},
+			"failureList": null
+		},
+		{
+			"id": 3,
+			"verified": true,
+			"data": {
+				"orderId": 1234567,
+				"boxes": [
+					{
+						"deliveryStatusCode": "E",
 						"id": "123456",
 						"deliverCode": "ABC",
 						"startedAt": "2019-12-31 14:00:00",
