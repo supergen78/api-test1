@@ -70,9 +70,9 @@
 						"deliverCode": "ABC",
 						"startedAt": "2019-12-17 14:00:00",
 						"invoiceNumber": "123456",
-						"endedAt": "2020-01-30 18:00:00",
-						"edd": "2020-01-30",
-						"pdd": "2020-01-30"
+						"endedAt": "2020-11-30 18:00:00",
+						"edd": "2020-10-30",
+						"pdd": "2020-11-30"
 					},
 					{
 						"deliveryStatusCode": "C",
@@ -80,9 +80,9 @@
 						"deliverCode": "ABC",
 						"startedAt": "2019-12-31 14:00:00",
 						"invoiceNumber": "123456",
-						"endedAt": "2020-01-31 18:00:00",
-						"edd": "2020-01-31",
-						"pdd": "2020-01-31"
+						"endedAt": null,
+						"edd": "2020-10-31",
+						"pdd": null
 					}
 				]
 			},
