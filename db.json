@@ -71,8 +71,7 @@
 						"startedAt": "2019-12-17 14:00:00",
 						"invoiceNumber": "123456",
 						"endedAt": null,
-						"edd": "2020-10-30",
-						"pdd": ""
+						"edd": "2020-10-30",						
 					},
 					{
 						"deliveryStatusCode": "C",
