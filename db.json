@@ -72,7 +72,7 @@
 						"invoiceNumber": "123456",
 						"endedAt": null,
 						"edd": "2020-10-30",
-						"pdd": ""
+						"pdd": "2020-10-30"
 					},
 					{
 						"deliveryStatusCode": "C",
@@ -82,7 +82,7 @@
 						"invoiceNumber": "123456",
 						"endedAt": "2020-12-17 07:00:00",
 						"edd": "2020-10-30",
-						"pdd": ""
+						"pdd": "2020-10-30"
 					}
 				]
 			},
