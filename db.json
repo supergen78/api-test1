@@ -75,7 +75,7 @@
 						"pdd": "2020-10-30"
 					},
 					{
-						"deliveryStatusCode": "C",
+						"deliveryStatusCode": "A",
 						"id": "123456",
 						"deliverCode": "ABC",
 						"startedAt": "2019-12-31 14:00:00",
