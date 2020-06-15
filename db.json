@@ -70,8 +70,7 @@
 						"deliverCode": "ABC",
 						"startedAt": "2019-12-17 14:00:00",
 						"invoiceNumber": "123456",
-						"endedAt": null,
-						"edd": "2020-10-30",
+						"endedAt": null,						
 						"pdd": "2020-10-30"
 					},
 					{
@@ -81,8 +80,7 @@
 						"startedAt": "2019-12-31 14:00:00",
 						"invoiceNumber": "123456",
 						"endedAt": "2020-01-10 13:00:00",
-						"edd": "2020-10-30",
-						"pdd": "2020-10-30"
+						"edd": "2020-10-30"						
 					}
 				]
 			},
