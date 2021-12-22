@@ -67,7 +67,7 @@
 				"boxes": [
 					{
 						"deliveryStatusCode": "B",
-						"id": 123,
+						"id": "123",
 						"deliverCode": "ABC",
 						"startedAt": "2019-12-17 14:00:00",
 						"invoiceNumber": "123456",
@@ -94,7 +94,7 @@
 				"boxes": [
 					{
 						"deliveryStatusCode": "E",
-						"id": "123456",
+						"id": "1236",
 						"deliverCode": "ABC",
 						"startedAt": "2019-12-31 14:00:00",
 						"invoiceNumber": "123456",
@@ -104,7 +104,7 @@
 					},
 					{
 						"deliveryStatusCode": "B",
-						"id": "123456",
+						"id": "3456",
 						"deliverCode": "ABC",
 						"startedAt": "2019-12-31 14:00:00",
 						"invoiceNumber": "123456",
@@ -114,7 +114,7 @@
 					},
 					{
 						"deliveryStatusCode": "C",
-						"id": "123456",
+						"id": "6",
 						"deliverCode": "ABC",
 						"startedAt": "2019-12-31 14:00:00",
 						"invoiceNumber": "123456",
