@@ -7,7 +7,7 @@
     },
     "servers": [
         {
-            "url": "https://d5i000004p3mreas-dev-ed.my.salesforce.com/services/data/v56.0"
+            "url": "https://scv-test01-chris.my.salesforce.com/services/data/v56.0"
         }
     ],
     "security": [
